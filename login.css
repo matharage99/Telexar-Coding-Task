@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ffffff;
+}
+.panels-container {
+    background: #6B56F6; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px 30px;
+    /*border-radius: 15px;*/
+    /*box-shadow: 0 4px 20px 0 rgba(31, 31, 31, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);*/
+    overflow: hidden;
+    display: flex;
+}
+.panels-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+.signin-signup{
+    position: absolute;
+    padding-left: 50rem;
+    padding-bottom: 10rem;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    min-width: 238px;
+    padding: 0 10px;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 35%;
+    min-width: 238px;
+    padding: 0 10px;
+    text-align: center;
+    z-index: 6;
+}
+.contentLeft{
+    line-height: 220%;
+    padding-top: 2rem;
+}
+.panel h3{
+    font-size: 60px;
+    color: #ffffff;
+    padding-left: 10rem;
+    opacity: .2;
+}
+.panel h5{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 10;
+    padding-left: 10rem;
+    opacity: .2;
+}
+.coverImage{
+    padding-left: 10rem;
+}
+.signin-signup{
+    padding-left: 45rem;
+}
+.logo{
+    padding-left: 7rem;
+}
+.contentRight h3{
+    padding-bottom: 2rem;
+    text-align: center;
+    line-height: 25%;
+    font-size: 45px;
+    color: #6B56F6;
+    padding-left: 5rem;
+}
+.contentRight h5{
+    text-align: center;
+    line-height: 20%;
+    font-size: 20px;
+    font-weight: 10;
+    color: #6B56F6;
+    padding-left: 5rem;
+}
+.signin-signup h2{
+    padding-top: 1rem;
+    padding-right: 10rem; 
+}
+#username, #password {
+    width: 100%;
+    height: 30px;
+    background: #ebebeb;
+    border-radius: 10px;
+    border: none;
+}
+.btn {
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #6B56F6;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+.btn:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+p{
+    font-size: 14px;
+
+}
